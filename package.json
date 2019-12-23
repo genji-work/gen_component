@@ -2,8 +2,13 @@
   "name": "gen_component",
   "version": "0.1.1",
   "description": "",
+  "main": "src/index.js",
   "scripts": {
-    "storybook": "start-storybook"
+    "storybook": "start-storybook -p 9000",
+    "lint": "prettier --check 'src/**/*.{js,jsx}'",
+    "build_demo": "build-storybook -c ./stories -o ./dist",
+    "fix": "prettier --write 'src/**/*.{js,jsx}'",
+    "precommit": "yarn lint"
   },
   "keywords": [],
   "author": "",
