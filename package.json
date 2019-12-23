@@ -1,6 +1,6 @@
 {
   "name": "@genji/gen_component",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "业务单元组件元组件",
   "main": "src/index.js",
   "repository": {
