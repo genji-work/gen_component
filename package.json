@@ -1,6 +1,6 @@
 {
   "name": "@genji/gen_component",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "业务单元组件元组件",
   "main": "src/index.js",
   "repository": {
@@ -16,7 +16,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "antd": "^3.26.4",
     "classnames": "^2.2.6",
