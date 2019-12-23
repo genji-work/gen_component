@@ -3,9 +3,13 @@
   "version": "0.1.1",
   "description": "",
   "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/genji-work/gen_component.git"
+  },
   "scripts": {
     "storybook": "start-storybook -p 9000",
-    "lint": "prettier --check 'src/**/*.{js,jsx}'",
+    "lint": "prettier --write 'src/**/*.{js,jsx}'",
     "build_demo": "build-storybook -c ./stories -o ./dist",
     "fix": "prettier --write 'src/**/*.{js,jsx}'",
     "precommit": "yarn lint"
